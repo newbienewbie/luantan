@@ -12,20 +12,18 @@
 
 <!--入口-->
 <div id="luantan">
-  <div data-reactroot="">
-    <!--iframe-->
-    <iframe scrolling="false" horizontalscrolling="no" verticalscrolling="no">
-      <html>
-        <head> 
-          <link rel="stylesheet" type="text/css" href="">
-        </head>
-        <body>
-          <div><!--comment form--></div>
-          <div><!--comment list--></div>
-        </body>
-      </html>
-    </iframe>
-  </div>
+  <!--iframe-->
+  <iframe data-reactroot="" scrolling="false" horizontalscrolling="no" verticalscrolling="no">
+    <html>
+      <head> 
+      </head>
+      <body>
+        <link rel="stylesheet" type="text/css" href="">
+        <div><!--comment form--></div>
+        <div><!--comment list--></div>
+      </body>
+    </html>
+  </iframe>
 </div>
 
 <!--主脚本-->
