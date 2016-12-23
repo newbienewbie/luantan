@@ -1,0 +1,35 @@
+{
+  "name": "luantan",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "test": "mocha test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "webbot@sina.com",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "webpack": "^1.14.0",
+    "babel-loader": "^6.2.10",
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1"
+  },
+  "dependencies": {
+    "md5": "^2.2.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
