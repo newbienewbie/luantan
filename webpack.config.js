@@ -20,7 +20,7 @@ module.exports={
                 query:{
                     "presets": ['es2015','react'],
                 },
-                include:PATHS.lib,
+                exclude:'node_modules',
             },
             {
                 test:/\.css$/,
