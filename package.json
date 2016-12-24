@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",
+    "lessc":"lessc style/luantan.less dist/luantan.css",
     "test": "mocha test --recursive"
   },
   "repository": {
@@ -25,6 +26,7 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
     "css-loader": "^0.26.1",
+    "less": "^2.7.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0"
   },

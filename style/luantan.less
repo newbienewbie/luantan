@@ -1,0 +1,140 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+
+  .active{
+    opacity: 1;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  margin-top: 0;
+}
+
+.lt-form-wrapper {
+  background: white;
+  overflow: hidden;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 20px;
+}
+
+.lt-heading--2 {
+  color: #444;
+  font-weight: normal;
+}
+
+
+.lt-form {
+
+    margin-bottom: 0;
+
+    .lt-form__fields {
+        overflow: hidden;
+        width: 50%;
+        padding-bottom: 20px;
+    }
+
+    .lt-form__field{
+        input,textarea {
+            border: 1px solid #e5e5e5;
+            width: 100%;
+            padding: 8px 12px;
+            font-size: inherit;
+            font-size: 14px;
+        }
+        input {
+            margin-top: 10px;
+            &:focus{
+                border: 1px solid crimson;
+            }
+        }
+        textarea{
+            margin-top: 10px;
+            &:focus{
+                border: 1px solid crimson;
+            }
+        }
+
+    }
+
+    .button {
+        font-size: inherit;
+        font-family: inherit;
+        width: 100%;
+        border: 0;
+        color: olive;
+        padding: 8px 12px;
+        cursor: pointer;
+        margin-top: 20px;
+        &:focus{
+            outline: none;
+        }
+    }
+
+}
+
+
+.lt-list {
+    overflow: hidden;
+    background: white;
+    padding-top: 20px;
+}
+
+.lt-comment {
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    p{
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    
+    .lt-comment__avatar {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .lt-comment__body {
+        overflow: hidden;
+
+        h4{
+            margin-bottom: 3px;
+            line-height: 1.3;
+            font-size: 14px;
+
+            small{
+                font-size: 12px;
+                color: #bdbdbd;
+                font-weight: normal;
+            }
+        }
+
+        p{
+            margin-top: 0;
+            font-size: 14px;
+            line-height: 1.3;
+        }
+    }
+
+}
+
+.lt-error {
+  margin: 0;
+  color: #f20000;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 480px) {
+  .lt-form__fields {
+    width: 100%;
+  }
+}
